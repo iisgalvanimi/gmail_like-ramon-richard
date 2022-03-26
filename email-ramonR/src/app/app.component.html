@@ -4,7 +4,7 @@
 <button (click)="sendEmail(a,ogg,txt)">invia</button>
 <ul>
 <li *ngFor = "let e of vettMail">
-  <app-sent-mail>[email] = "e"</app-sent-mail>
+  <app-sent-mail [email] = "e"></app-sent-mail>
 
 
 
